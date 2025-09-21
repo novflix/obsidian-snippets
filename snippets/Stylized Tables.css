@@ -28,13 +28,28 @@ thead {
   background-color: var(--background-secondary);
 }
 
-/* centering all elements */
-.markdown-preview-view table thead tr th,
-.markdown-rendered table thead tr th,
-.markdown-preview-view table tr td,
-.markdown-rendered table tr td {
+/* @settings
+name: Table Styling
+id: table-styling
+settings:
+  - id: center-all-cells
+    title: Center all table cells
+    description: Toggle to enable or disable centering the content of all table cells
+    type: class-toggle
+    default: true
+*/
+
+/* Centering all cells (when enabled) */
+body.center-all-cells .markdown-preview-view table thead tr th,
+body.center-all-cells .markdown-rendered table thead tr th,
+body.center-all-cells .markdown-preview-view table tr td,
+body.center-all-cells .markdown-rendered table tr td {
   text-align: center;
 }
+
+
+
+
 
 
 
