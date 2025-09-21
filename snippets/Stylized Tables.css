@@ -1,0 +1,43 @@
+:root table {
+  border-collapse: separate;
+  border-spacing: 0;
+  --table-header-weight:bold;
+}
+
+th:first-of-type {
+  border-top-left-radius: 10px;
+  background-color: var(--background-secondary);
+}
+th:last-of-type {
+  border-top-right-radius: 10px;
+  background-color: var(--background-secondary);
+}
+tr:last-of-type td:first-of-type {
+  border-bottom-left-radius: 10px;
+
+}
+tr:last-of-type td:last-of-type {
+  border-bottom-right-radius: 10px;
+}
+
+:root :is(td, th) {
+  border-width: 0 var(--table-border-width) var(--table-border-width) 0;
+}
+
+thead {
+  background-color: var(--background-secondary);
+}
+
+/* centering all elements */
+.markdown-preview-view table thead tr th,
+.markdown-rendered table thead tr th,
+.markdown-preview-view table tr td,
+.markdown-rendered table tr td {
+  text-align: center;
+}
+
+
+
+
+
+
