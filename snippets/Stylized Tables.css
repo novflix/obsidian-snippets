@@ -39,7 +39,6 @@ settings:
     default: true
 */
 
-/* Centering all cells (when enabled) */
 body.center-all-cells .markdown-preview-view table thead tr th,
 body.center-all-cells .markdown-rendered table thead tr th,
 body.center-all-cells .markdown-preview-view table tr td,
