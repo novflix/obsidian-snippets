@@ -7,7 +7,7 @@
 
 ---
 
-![](https://i.imgur.com/Fe9ACem.jpg)
+![]()
 
 ```css
 
