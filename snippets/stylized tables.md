@@ -3,7 +3,7 @@
 ---
 
 - author:: novflix
-- source:: https://github.com/KuiyueRO/Obsidian-Miner/blob/main/snippets/MinerBanner.css
+- source:: https://github.com/novflix/obsidian-snippets/blob/main/code%20of%20my%20snippets/Stylized%20Tables.css
 
 ---
 
